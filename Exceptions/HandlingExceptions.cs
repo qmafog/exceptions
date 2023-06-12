@@ -40,7 +40,7 @@
         {
             errorMessage = null;
 
-            // TODO #5-6. Add the try-catch statement to catch an exception of ArgumentNullException type. If an ArgumentNullException is thrown, assign errorMessage parameter to the exception's error message and return "D948".
+            // TODO #5-6. Add the try-catch statement to catch an exception of ArgumentException type. If an ArgumentException is thrown, assign errorMessage parameter to the exception's error message and return "D948".
             return DoSomething(i, o, s);
         }
 

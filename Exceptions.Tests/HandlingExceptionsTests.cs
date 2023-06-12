@@ -176,7 +176,7 @@
 
         [TestCase(-11)]
         [TestCase(11)]
-        public void CatchArgumentException6_ArgumentOutOfRangeException(int i)
+        public void CatchArgumentException6_CatchesArgumentException(int i)
         {
             string actualResult = HandlingExceptions.CatchArgumentException6(i, "ABC", "123", out string errorMessage);
 
@@ -185,7 +185,7 @@
         }
 
         [Test]
-        public void CatchArgumentException6_O_IsNull_ThrowsArgumentNullException()
+        public void CatchArgumentException6_O_IsNull_CatchesArgumentException()
         {
             string actualResult = HandlingExceptions.CatchArgumentException6(0, null, "123", out string errorMessage);
 
@@ -194,7 +194,7 @@
         }
 
         [Test]
-        public void CatchArgumentException6_S_IsNull_ThrowsArgumentNullException()
+        public void CatchArgumentException6_S_IsNull_CatchesArgumentException()
         {
             string actualResult = HandlingExceptions.CatchArgumentException6(0, "ABC", null, out string errorMessage);
 
@@ -203,7 +203,7 @@
         }
 
         [Test]
-        public void CatchArgumentException6_S_IsEmpty_ThrowsArgumentException()
+        public void CatchArgumentException6_S_IsEmpty_CatchesArgumentException()
         {
             string actualResult = HandlingExceptions.CatchArgumentException6(0, "ABC", string.Empty, out string errorMessage);
 

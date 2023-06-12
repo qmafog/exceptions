@@ -680,7 +680,7 @@ Add the code to return the "P456" string when an _ArgumentNullException_ is thro
 
 | Exception Type To Catch     | Return |
 |-----------------------------|--------|
-| ArgumentException           | P456   |
+| ArgumentNullException       | P456   |
 
 
 #### Subtask 5-4
@@ -711,8 +711,8 @@ Open the [HandlingExceptions.cs](Exceptions/HandlingExceptions.cs) file, and nav
 
 Add the code to return the "D948" string when an _ArgumentException_ is thrown. Assign the _errorMessage_ parameter to the exception error message.
 
-| Exception Type To Catch     | Return | errorMessage Parameter                |
-|-----------------------------|--------|---------------------------------------|
+| Exception Type To Catch     | Return | errorMessage Parameter                 |
+|-----------------------------|--------|----------------------------------------|
 | ArgumentException           | D948   | Assign to the exception error message. |
 
 
